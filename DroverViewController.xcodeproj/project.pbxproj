@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B720322D1C28030D00470F8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B720322C1C28030D00470F8D /* main.m */; };
+		B72032301C28030D00470F8D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B720322F1C28030D00470F8D /* AppDelegate.m */; };
+		B72032331C28030D00470F8D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B72032321C28030D00470F8D /* ViewController.m */; };
+		B72032361C28030D00470F8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B72032341C28030D00470F8D /* Main.storyboard */; };
+		B72032381C28030D00470F8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B72032371C28030D00470F8D /* Assets.xcassets */; };
+		B720323B1C28030D00470F8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B72032391C28030D00470F8D /* LaunchScreen.storyboard */; };
+		B72032491C282C7A00470F8D /* crunch_in_button.png in Resources */ = {isa = PBXBuildFile; fileRef = B72032481C282C7A00470F8D /* crunch_in_button.png */; };
+		B720324B1C28309D00470F8D /* Camera.png in Resources */ = {isa = PBXBuildFile; fileRef = B720324A1C28309D00470F8D /* Camera.png */; };
+		B720324D1C28319100470F8D /* gallary.png in Resources */ = {isa = PBXBuildFile; fileRef = B720324C1C28319100470F8D /* gallary.png */; };
+		B7E3DDA41C2A737300146D79 /* crunch_out_button.png in Resources */ = {isa = PBXBuildFile; fileRef = B7E3DDA31C2A737300146D79 /* crunch_out_button.png */; };
+		B7E3DDAA1C2A863E00146D79 /* DroverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E3DDA91C2A863E00146D79 /* DroverViewController.m */; };
+		B7E3DDB11C2A99AB00146D79 /* DroverRightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E3DDB01C2A99AB00146D79 /* DroverRightViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B72032281C28030D00470F8D /* DroverViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DroverViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B720322C1C28030D00470F8D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B720322E1C28030D00470F8D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B720322F1C28030D00470F8D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B72032311C28030D00470F8D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B72032321C28030D00470F8D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B72032351C28030D00470F8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B72032371C28030D00470F8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B720323A1C28030D00470F8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B720323C1C28030D00470F8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B72032481C282C7A00470F8D /* crunch_in_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crunch_in_button.png; sourceTree = "<group>"; };
+		B720324A1C28309D00470F8D /* Camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Camera.png; sourceTree = "<group>"; };
+		B720324C1C28319100470F8D /* gallary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gallary.png; sourceTree = "<group>"; };
+		B7E3DDA31C2A737300146D79 /* crunch_out_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crunch_out_button.png; sourceTree = "<group>"; };
+		B7E3DDA81C2A863E00146D79 /* DroverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DroverViewController.h; sourceTree = "<group>"; };
+		B7E3DDA91C2A863E00146D79 /* DroverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DroverViewController.m; sourceTree = "<group>"; };
+		B7E3DDAE1C2A998600146D79 /* DroverRightDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DroverRightDelegate.h; sourceTree = "<group>"; };
+		B7E3DDAF1C2A99AB00146D79 /* DroverRightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DroverRightViewController.h; sourceTree = "<group>"; };
+		B7E3DDB01C2A99AB00146D79 /* DroverRightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DroverRightViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B72032251C28030D00470F8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B720321F1C28030D00470F8D = {
+			isa = PBXGroup;
+			children = (
+				B7E3DDAE1C2A998600146D79 /* DroverRightDelegate.h */,
+				B720322A1C28030D00470F8D /* DroverViewController */,
+				B72032291C28030D00470F8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B72032291C28030D00470F8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B72032281C28030D00470F8D /* DroverViewController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B720322A1C28030D00470F8D /* DroverViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B7E3DDA81C2A863E00146D79 /* DroverViewController.h */,
+				B7E3DDA91C2A863E00146D79 /* DroverViewController.m */,
+				B7E3DDA31C2A737300146D79 /* crunch_out_button.png */,
+				B720324C1C28319100470F8D /* gallary.png */,
+				B720324A1C28309D00470F8D /* Camera.png */,
+				B72032481C282C7A00470F8D /* crunch_in_button.png */,
+				B720322E1C28030D00470F8D /* AppDelegate.h */,
+				B720322F1C28030D00470F8D /* AppDelegate.m */,
+				B72032311C28030D00470F8D /* ViewController.h */,
+				B72032321C28030D00470F8D /* ViewController.m */,
+				B72032341C28030D00470F8D /* Main.storyboard */,
+				B72032371C28030D00470F8D /* Assets.xcassets */,
+				B72032391C28030D00470F8D /* LaunchScreen.storyboard */,
+				B720323C1C28030D00470F8D /* Info.plist */,
+				B720322B1C28030D00470F8D /* Supporting Files */,
+				B7E3DDAF1C2A99AB00146D79 /* DroverRightViewController.h */,
+				B7E3DDB01C2A99AB00146D79 /* DroverRightViewController.m */,
+			);
+			path = DroverViewController;
+			sourceTree = "<group>";
+		};
+		B720322B1C28030D00470F8D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B720322C1C28030D00470F8D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B72032271C28030D00470F8D /* DroverViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B720323F1C28030D00470F8D /* Build configuration list for PBXNativeTarget "DroverViewController" */;
+			buildPhases = (
+				B72032241C28030D00470F8D /* Sources */,
+				B72032251C28030D00470F8D /* Frameworks */,
+				B72032261C28030D00470F8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DroverViewController;
+			productName = DroverViewController;
+			productReference = B72032281C28030D00470F8D /* DroverViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B72032201C28030D00470F8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = RAHUL;
+				TargetAttributes = {
+					B72032271C28030D00470F8D = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = B72032231C28030D00470F8D /* Build configuration list for PBXProject "DroverViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B720321F1C28030D00470F8D;
+			productRefGroup = B72032291C28030D00470F8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B72032271C28030D00470F8D /* DroverViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B72032261C28030D00470F8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7E3DDA41C2A737300146D79 /* crunch_out_button.png in Resources */,
+				B720324D1C28319100470F8D /* gallary.png in Resources */,
+				B720323B1C28030D00470F8D /* LaunchScreen.storyboard in Resources */,
+				B72032381C28030D00470F8D /* Assets.xcassets in Resources */,
+				B72032361C28030D00470F8D /* Main.storyboard in Resources */,
+				B720324B1C28309D00470F8D /* Camera.png in Resources */,
+				B72032491C282C7A00470F8D /* crunch_in_button.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B72032241C28030D00470F8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B72032331C28030D00470F8D /* ViewController.m in Sources */,
+				B72032301C28030D00470F8D /* AppDelegate.m in Sources */,
+				B7E3DDB11C2A99AB00146D79 /* DroverRightViewController.m in Sources */,
+				B7E3DDAA1C2A863E00146D79 /* DroverViewController.m in Sources */,
+				B720322D1C28030D00470F8D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B72032341C28030D00470F8D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B72032351C28030D00470F8D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B72032391C28030D00470F8D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B720323A1C28030D00470F8D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B720323D1C28030D00470F8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B720323E1C28030D00470F8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B72032401C28030D00470F8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DroverViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.9spl.DroverViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B72032411C28030D00470F8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DroverViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.9spl.DroverViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B72032231C28030D00470F8D /* Build configuration list for PBXProject "DroverViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B720323D1C28030D00470F8D /* Debug */,
+				B720323E1C28030D00470F8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B720323F1C28030D00470F8D /* Build configuration list for PBXNativeTarget "DroverViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B72032401C28030D00470F8D /* Debug */,
+				B72032411C28030D00470F8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B72032201C28030D00470F8D /* Project object */;
+}
